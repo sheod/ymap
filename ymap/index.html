@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            var list = [
+  {
+    "hlon" : 50.123046899999999,
+    "rrlon" : 50.122809891105327,
+    "rrlat" : 53.186755482748609,
+    "hlat" : 53.186744699999998
+  },
+  {
+    "hlon" : 50.137880000000003,
+    "rrlon" : 50.137398300000001,
+    "rrlat" : 53.193778799999997,
+    "hlat" : 53.193382300000003
+  },
+  {
+    "hlon" : 50.123786899999999,
+    "rrlon" : 50.1231863,
+    "rrlat" : 53.196129200000001,
+    "hlat" : 53.1961479
+  },
+  {
+    "hlon" : 50.135894800000003,
+    "rrlon" : 50.136162078883437,
+    "rrlat" : 53.193967200397701,
+    "hlat" : 53.193736999999999
+  },
+  {
+    "hlon" : 50.130710000000001,
+    "rrlon" : 50.131759099999996,
+    "rrlat" : 53.188840999999996,
+    "hlat" : 53.188540000000003
+  },
+  {
+    "hlon" : 50.136817899999997,
+    "rrlon" : 50.1370456,
+    "rrlat" : 53.187995600000001,
+    "hlat" : 53.187816599999998
+  },
+  {
+    "hlon" : 50.129406000000003,
+    "rrlon" : 50.131052799999999,
+    "rrlat" : 53.196134499999999,
+    "hlat" : 53.196170000000002
+  },
+  {
+    "hlon" : 50.109157600000003,
+    "rrlon" : 50.233638800000001,
+    "rrlat" : 53.239455900000003,
+    "hlat" : 53.184640000000002
+  },
+  {
+    "hlon" : 50.121204400000003,
+    "rrlon" : 50.121462200000003,
+    "rrlat" : 53.195319599999998,
+    "hlat" : 53.195064500000001
+  },
+  {
+    "hlon" : 50.136879999999998,
+    "rrlon" : 50.116703780000002,
+    "rrlat" : 53.189803490000003,
+    "hlat" : 53.188720000000004
+  },
+  {
+    "hlon" : 50.1379929,
+    "rrlon" : 50.1388532,
+    "rrlat" : 53.189022700000002,
+    "hlat" : 53.189453100000001
+  },
+  {
+    "hlon" : 50.136794999999999,
+    "rrlon" : 50.1373848,
+    "rrlat" : 53.189722699999997,
+    "hlat" : 53.189700000000002
+  },
+  {
+    "hlon" : 50.1340675,
+    "rrlon" : 50.136929199999997,
+    "rrlat" : 53.188007499999998,
+    "hlat" : 53.19211
+  },
+  {
+    "hlon" : 50.136794999999999,
+    "rrlon" : 50.137402199999997,
+    "rrlat" : 53.189766200000001,
+    "hlat" : 53.189700000000002
+  },
+  {
+    "hlon" : 50.099967999999997,
+    "rrlon" : 50.099491700000002,
+    "rrlat" : 53.186836200000002,
+    "hlat" : 53.187377900000001
+  },
+  {
+    "hlon" : 50.110405,
+    "rrlon" : 50.116794994120092,
+    "rrlat" : 53.18953780028157,
+    "hlat" : 53.1872635
+  },
+  {
+    "hlon" : 50.13044,
+    "rrlon" : 50.130139323483519,
+    "rrlat" : 53.192298038388024,
+    "hlat" : 53.1921921
+  },
+  {
+    "hlon" : 50.1340675,
+    "rrlon" : 50.135412329717624,
+    "rrlat" : 53.191904632027196,
+    "hlat" : 53.19211
+  },
+  {
+    "hlon" : 50.101649999999999,
+    "rrlon" : 50.102134088088818,
+    "rrlat" : 53.181597893092814,
+    "hlat" : 53.181423199999998
+  },
+  {
+    "hlon" : 50.133445700000003,
+    "rrlon" : 50.134337691843335,
+    "rrlat" : 53.195717598176365,
+    "hlat" : 53.196414900000001
+  },
+  {
+    "hlon" : 50.100112899999999,
+    "rrlon" : 50.1000777,
+    "rrlat" : 53.191610300000001,
+    "hlat" : 53.192070000000001
+  },
+  {
+    "hlon" : 50.121204400000003,
+    "rrlon" : 50.227194099999998,
+    "rrlat" : 53.232793800000003,
+    "hlat" : 53.195064500000001
+  },
+  {
+    "hlon" : 50.134500000000003,
+    "rrlon" : 50.134797222605634,
+    "rrlat" : 53.19280426470403,
+    "hlat" : 53.191333800000002
+  },
+  {
+    "hlon" : 50.136794999999999,
+    "rrlon" : 50.137238099999998,
+    "rrlat" : 53.189811300000002,
+    "hlat" : 53.189700000000002
+  },
+  {
+    "hlon" : 50.107235000000003,
+    "rrlon" : 50.100092433635403,
+    "rrlat" : 53.191583525504285,
+    "hlat" : 53.196113599999997
+  },
+  {
+    "hlon" : 50.1340675,
+    "rrlon" : 50.135036096425296,
+    "rrlat" : 53.191462826498402,
+    "hlat" : 53.19211
+  },
+  {
+    "hlon" : 50.1239548,
+    "rrlon" : 50.102511,
+    "rrlat" : 53.190198899999999,
+    "hlat" : 53.191189999999999
+  },
+  {
+    "hlon" : 50.133914900000001,
+    "rrlon" : 50.233607999999997,
+    "rrlat" : 53.239491800000003,
+    "hlat" : 53.194989999999997
+  },
+  {
+    "hlon" : 50.105359999999997,
+    "rrlon" : 50.105330998251311,
+    "rrlat" : 53.195294727545594,
+    "hlat" : 53.195770000000003
+  },
+  {
+    "hlon" : 50.110405,
+    "rrlon" : 50.110581395820759,
+    "rrlat" : 53.187571448785725,
+    "hlat" : 53.1872635
+  },
+  {
+    "hlon" : 50.112705200000001,
+    "rrlon" : 50.112389282827884,
+    "rrlat" : 53.198782617866833,
+    "hlat" : 53.198480000000004
+  },
+  {
+    "hlon" : 50.11674,
+    "rrlon" : 50.122106000000002,
+    "rrlat" : 53.188303900000001,
+    "hlat" : 53.18927
+  },
+  {
+    "hlon" : 50.1379929,
+    "rrlon" : 50.1374,
+    "rrlat" : 53.1897308,
+    "hlat" : 53.189453100000001
+  },
+  {
+    "hlon" : 50.076999999999998,
+    "rrlon" : 50.076693487925787,
+    "rrlat" : 53.182183675474867,
+    "hlat" : 53.183
+  },
+  {
+    "hlon" : 50.136794999999999,
+    "rrlon" : 50.137497099999997,
+    "rrlat" : 53.189819700000001,
+    "hlat" : 53.189700000000002
+  },
+  {
+    "hlon" : 50.126785300000002,
+    "rrlon" : 50.134815350135796,
+    "rrlat" : 53.191699527457523,
+    "hlat" : 53.193260000000002
+  },
+  {
+    "hlon" : 50.123786899999999,
+    "rrlon" : 50.123445175224958,
+    "rrlat" : 53.196281023820454,
+    "hlat" : 53.1961479
+  },
+  {
+    "hlon" : 50.1379929,
+    "rrlon" : 50.1383522,
+    "rrlat" : 53.1900859,
+    "hlat" : 53.189453100000001
+  },
+  {
+    "hlon" : 50.085329999999999,
+    "rrlon" : 50.134594700000001,
+    "rrlat" : 53.191861699999997,
+    "hlat" : 53.187359999999998
+  },
+  {
+    "hlon" : 50.085329999999999,
+    "rrlon" : 50.086144056652117,
+    "rrlat" : 53.187100426323319,
+    "hlat" : 53.187359999999998
+  },
+  {
+    "hlon" : 50.07696,
+    "rrlon" : 50.076326600000002,
+    "rrlat" : 53.1815864,
+    "hlat" : 53.182174699999997
+  },
+  {
+    "hlon" : 50.133560000000003,
+    "rrlon" : 50.233529900000001,
+    "rrlat" : 53.239618800000002,
+    "hlat" : 53.188812300000002
+  },
+  {
+    "hlon" : 50.083736399999999,
+    "rrlon" : 50.084228250000002,
+    "rrlat" : 53.190306130000003,
+    "hlat" : 53.189483600000003
+  },
+  {
+    "hlon" : 50.13044,
+    "rrlon" : 50.129958799999997,
+    "rrlat" : 53.191929199999997,
+    "hlat" : 53.1921921
+  },
+  {
+    "hlon" : 50.113647499999999,
+    "rrlon" : 50.112982433325882,
+    "rrlat" : 53.188507324815291,
+    "hlat" : 53.188507100000002
+  },
+  {
+    "hlon" : 50.1340675,
+    "rrlon" : 50.135133802862775,
+    "rrlat" : 53.192010377945913,
+    "hlat" : 53.19211
+  },
+  {
+    "hlon" : 50.093036699999999,
+    "rrlon" : 50.076729844268627,
+    "rrlat" : 53.181897113840073,
+    "hlat" : 53.188495600000003
+  },
+  {
+    "hlon" : 50.125156400000002,
+    "rrlon" : 50.13499568357738,
+    "rrlat" : 53.191709433664492,
+    "hlat" : 53.191894499999997
+  },
+  {
+    "hlon" : 50.134500000000003,
+    "rrlon" : 50.134205317791128,
+    "rrlat" : 53.191855581467081,
+    "hlat" : 53.191333800000002
+  },
+  {
+    "hlon" : 50.07696,
+    "rrlon" : 50.076670586931968,
+    "rrlat" : 53.182194212320226,
+    "hlat" : 53.182174699999997
+  },
+  {
+    "hlon" : 50.137880000000003,
+    "rrlon" : 50.137377824921089,
+    "rrlat" : 53.193857153529869,
+    "hlat" : 53.193382300000003
+  },
+  {
+    "hlon" : 50.099914599999998,
+    "rrlon" : 50.099429800000003,
+    "rrlat" : 53.196429700000003,
+    "hlat" : 53.196575199999998
+  },
+  {
+    "hlon" : 50.120739999999998,
+    "rrlon" : 50.120960099999998,
+    "rrlat" : 53.194025699999997,
+    "hlat" : 53.194377899999999
+  },
+  {
+    "hlon" : 50.1340675,
+    "rrlon" : 50.135973306381644,
+    "rrlat" : 53.193944411625516,
+    "hlat" : 53.19211
+  },
+  {
+    "hlon" : 50.113549999999996,
+    "rrlon" : 50.112793567198153,
+    "rrlat" : 53.187681564549727,
+    "hlat" : 53.187379999999997
+  },
+  {
+    "hlon" : 50.114364600000002,
+    "rrlon" : 50.113812500000002,
+    "rrlat" : 53.191778999999997,
+    "hlat" : 53.191795300000003
+  },
+  {
+    "hlon" : 50.105359999999997,
+    "rrlon" : 50.10534801,
+    "rrlat" : 53.195420050000003,
+    "hlat" : 53.195770000000003
+  },
+  {
+    "hlon" : 50.121986399999997,
+    "rrlon" : 50.122029234244003,
+    "rrlat" : 53.186893049505898,
+    "hlat" : 53.18656
+  },
+  {
+    "hlon" : 50.134500000000003,
+    "rrlon" : 50.130332717839643,
+    "rrlat" : 53.192034618961905,
+    "hlat" : 53.191333800000002
+  },
+  {
+    "hlon" : 50.1316147,
+    "rrlon" : 50.13050800019203,
+    "rrlat" : 53.188358131914136,
+    "hlat" : 53.188415499999998
+  },
+  {
+    "hlon" : 50.091854099999999,
+    "rrlon" : 50.091897000000003,
+    "rrlat" : 53.188192299999997,
+    "hlat" : 53.187877700000001
+  },
+  {
+    "hlon" : 50.1340675,
+    "rrlon" : 50.135017889591786,
+    "rrlat" : 53.191771979573382,
+    "hlat" : 53.19211
+  },
+  {
+    "hlon" : 50.083736399999999,
+    "rrlon" : 50.233529900000001,
+    "rrlat" : 53.239618800000002,
+    "hlat" : 53.189483600000003
+  },
+  {
+    "hlon" : 50.1340675,
+    "rrlon" : 50.135137781046012,
+    "rrlat" : 53.191715830761453,
+    "hlat" : 53.19211
+  },
+  {
+    "hlon" : 50.117690000000003,
+    "rrlon" : 50.118884314462733,
+    "rrlat" : 53.192745335450155,
+    "hlat" : 53.192520000000002
+  },
+  {
+    "hlon" : 50.133560000000003,
+    "rrlon" : 50.13189223558976,
+    "rrlat" : 53.188559172426984,
+    "hlat" : 53.188812300000002
+  },
+  {
+    "hlon" : 50.135894800000003,
+    "rrlon" : 50.133396699999999,
+    "rrlat" : 53.193299500000002,
+    "hlat" : 53.193736999999999
+  },
+  {
+    "hlon" : 50.088424699999997,
+    "rrlon" : 50.088818849696239,
+    "rrlat" : 53.193031970983071,
+    "hlat" : 53.19265
+  },
+  {
+    "hlon" : 50.101179999999999,
+    "rrlon" : 50.100361583602513,
+    "rrlat" : 53.198383373637803,
+    "hlat" : 53.198406200000001
+  },
+  {
+    "hlon" : 50.108460000000001,
+    "rrlon" : 50.109026299999996,
+    "rrlat" : 53.19505667,
+    "hlat" : 53.1951866
+  },
+  {
+    "hlon" : 50.115406,
+    "rrlon" : 50.12598414982579,
+    "rrlat" : 53.192711796878825,
+    "hlat" : 53.195415500000003
+  },
+  {
+    "hlon" : 50.083736399999999,
+    "rrlon" : 50.084243360000002,
+    "rrlat" : 53.190256920000003,
+    "hlat" : 53.189483600000003
+  },
+  {
+    "hlon" : 50.099879999999999,
+    "rrlon" : 50.1000801,
+    "rrlat" : 53.1915841,
+    "hlat" : 53.191540000000003
+  },
+  {
+    "hlon" : 50.112990000000003,
+    "rrlon" : 50.113211084946798,
+    "rrlat" : 53.191062544929672,
+    "hlat" : 53.191040000000001
+  },
+  {
+    "hlon" : 50.124090000000002,
+    "rrlon" : 50.123921947935422,
+    "rrlat" : 53.187455424528643,
+    "hlat" : 53.187202499999998
+  },
+  {
+    "hlon" : 50.11674,
+    "rrlon" : 50.116985684000518,
+    "rrlat" : 53.189758632379046,
+    "hlat" : 53.18927
+  }
+]    
+        </script>
+        <script src="https://api-maps.yandex.ru/2.1/?apikey=3757bf7b-c446-481f-b86f-1f023cc4c9d9&lang=ru_RU" type="text/javascript">
+        </script>
+        <script>          
+                document.addEventListener('DOMContentLoaded', layout)
+
+                function setMapSize() {
+                    let map = document.getElementById('map')
+                    map.style.width = document.body.clientWidth + 'px'
+                    map.style.height = document.documentElement.clientHeight + 'px'
+                }
+                
+                function setExecutorBackGroundWidth() {
+                    let executorName = document.getElementById('executorName')
+                    let backgroundWith = executorName.getBoundingClientRect().width
+                    document.getElementById('executorBackGround').style.width = backgroundWith + 'px'
+
+                }
+
+                function setListCount() {
+                    let allCount = document.getElementById('allCount')
+                    allCount.innerHTML = ' из ' + list.length
+                }
+
+                function layout() {
+                    setMapSize()
+                    setExecutorBackGroundWidth()
+                    setListCount()
+                }
+
+
+        </script>
+        
+        <script type="text/javascript">
+            ymaps.ready(init);
+            
+            function init() { 
+                var negativeCount = 0
+                var negativeCountSpan = document.getElementById('negativeCount')
+
+                var myMap = new ymaps.Map("map", {
+                    center: [53.186744699999998,50.123046899999999],
+                    zoom: 15,
+                    controls: ['zoomControl']
+                });
+                
+                
+                function createMarker (lat, lon, icon) {
+                    let marker =  new ymaps.Placemark([lat, lon], {
+                        hintContent: '',
+                        balloonContent: ''
+                    }, {
+                        iconLayout: 'default#image',
+                        iconImageHref: icon,
+                        iconImageSize: [24, 24],
+                        iconImageOffset: [-12, -12]
+                    }) 
+                    
+                    myMap.geoObjects.add(marker)
+                };
+
+                function task (coords) {
+                    let {hlat, hlon, rrlat, rrlon} = coords
+
+                    var color = '#757575'
+                    var houseIcon = 'house.svg'
+                    var executorIcon = 'executor.svg'
+
+                    var distance = measure(hlat, hlon, rrlat, rrlon) 
+                    
+                    if (distance > 600) {
+                        color = '#CF1D1D'
+                        executorIcon = 'executorRed.svg'
+                        negativeCount++
+                        negativeCountSpan.innerHTML = negativeCount
+                    }
+
+                    createMarker (hlat, hlon, houseIcon)
+                    createMarker (rrlat, rrlon, executorIcon)
+
+                    let pl = new ymaps.Polyline([ 
+                        [hlat, hlon],
+                        [rrlat, rrlon],
+                    ], {
+                        hintContent: "Расстояние между домом и место закрытия заявки"
+                    }, {
+                        draggable: false,
+                        strokeColor: color,
+                        strokeWidth: 2,
+                        strokeStyle: '1 4'
+                    });
+
+                    myMap.geoObjects.add(pl)
+                }
+
+                function drawMarkers (list) {
+                    for (let i=0; i < list.length ; i++) {
+                        task(list[i])
+                    }
+                }
+
+
+
+                drawMarkers(list)
+
+                function measure(lat1, lon1, lat2, lon2){  // generally used geo measurement function
+                    var R = 6378.137; // Radius of earth in KM
+                    var dLat = lat2 * Math.PI / 180 - lat1 * Math.PI / 180;
+                    var dLon = lon2 * Math.PI / 180 - lon1 * Math.PI / 180;
+                    var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+                    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                    Math.sin(dLon/2) * Math.sin(dLon/2);
+                    var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+                    var d = R * c;
+                    return d * 1000; // meters
+                }   
+
+            }
+           
+        </script>
+        
+    </head>
+    <body style="padding: 0px; margin: 0px">
+        <div id="map" style="padding: 0px; margin: 0px; float: left;"></div>
+        <div id="label" style="width: 100%; position: absolute; text-align: left; padding-top: 32px">
+            <div id="executorBackGround" style="float: right; margin-right:32px; background-color: white; padding: 16px; font-family: sans-serif; border-radius: 5px">
+                <span id="executorName" style="font-size: 16px">Сухинин Виталий Алекстандрович</span> 
+                </p>
+                <span style="font-size: 14px">
+                    <span id="negativeCount" style="color: #CF1D1D; padding: 0px"></span>
+                    <span id="allCount"></span>
+                    <span>заявок закрыто за пределами радиуса 600м от объекта обслуживания</span>
+                </span>
+            </div>
+        </div>
+    </body>
+</html>
